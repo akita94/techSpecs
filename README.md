@@ -1,74 +1,44 @@
-<button onclick="copyToClipboard(`# TechSpecs Tracker
+TechSpecs Tracker
+TechSpecs Tracker is a Python GUI application that displays detailed system information of the system it's running on. The application uses Tkinter for the user interface and modules like platform and psutil to fetch and display system information.
 
-TechSpecs Tracker est une application Python GUI qui affiche les informations détaillées du système sur lequel elle est exécutée. L'application utilise Tkinter pour l'interface utilisateur et des modules comme platform et psutil pour récupérer et afficher les informations système.
+Features
+Displays information about the operating system (name, version, architecture).
+Displays details about the processor (model, frequency, number of cores).
+Displays information about the RAM (total, available).
+Displays details about the hard disk (total space, used space, free space, usage percentage).
+Displays information about the power supply (simulated).
+Displays details about the CPU cooling (simulated).
+Displays details about the motherboard (on Windows only, using WMIC).
+Displays details about the graphics card (on Windows only, using WMIC).
+Displays details about the operating system (build name, installed updates).
+Requirements
+Python 3.x installed on your system.
+The following modules need to be installed:
+psutil
+tkinter (usually included with Python)
+Installation and Usage
+Clone the repository:
 
-`)">Copier le titre</button>
-
-<button onclick="copyToClipboard(`## Fonctionnalités
-
-Affiche les informations sur le système d'exploitation (nom, version, architecture).
-Affiche les détails du processeur (modèle, fréquence, nombre de cœurs).
-Affiche les informations sur la mémoire vive (RAM).
-Affiche les détails du disque dur (espace total, utilisé, libre, pourcentage d'utilisation).
-Affiche les informations sur l'alimentation (PSU) (simulées).
-Affiche les détails du refroidissement du processeur (simulés).
-Affiche les détails de la carte mère (sur Windows uniquement, utilisant WMIC).
-Affiche les détails de la carte graphique (sur Windows uniquement, utilisant WMIC).
-Affiche les détails du système d'exploitation (nom de build, mises à jour installées).
-`)">Copier les fonctionnalités</button>
-
-<button onclick="copyToClipboard(`## Prérequis
-
-Python 3.x installé sur votre système.
-Les modules suivants doivent être installés :
-`psutil`
-`tkinter` (normalement inclus avec Python)
-`)">Copier les prérequis</button>
-
-<button onclick="copyToClipboard(`## Installation et Utilisation
-
-Cloner le dépôt :
-```bash
-git clone https://github.com/votre-utilisateur/TechSpecs-Tracker.git
+bash
+Copier le code
+git clone https://github.com/yourusername/TechSpecs-Tracker.git
 cd TechSpecs-Tracker
-```
+Install dependencies:
+Make sure the required modules are installed:
 
-Installer les dépendances :
-Assurez-vous que les modules requis sont installés :
-```bash
+bash
+Copier le code
 pip install psutil
-```
+Run the application:
 
-Lancer l'application :
-```bash
+bash
+Copier le code
 python TechSpecs.py
-```
+Usage:
+Once the application is launched, it will display system details in a user-friendly interface.
 
-Utilisation :
-Une fois l'application lancée, elle affichera les détails du système dans une interface utilisateur conviviale.
+Author
+Add your author information here.
 
-`)">Copier l'installation et l'utilisation</button>
-
-<button onclick="copyToClipboard(`## Auteur
-
-Ajoutez vos informations d'auteur ici.
-
-`)">Copier l'auteur</button>
-
-<button onclick="copyToClipboard(`## Licence
-
-Ce projet est sous licence MIT.
-
-`)">Copier la licence</button>
-
-<script>
-function copyToClipboard(text) {
-  const el = document.createElement('textarea');
-  el.value = text;
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand('copy');
-  document.body.removeChild(el);
-  alert('Copié !');
-}
-</script>
+License
+This project is licensed under the MIT License.
