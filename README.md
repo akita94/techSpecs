@@ -25,7 +25,7 @@ TechSpecs Tracker est une application GUI Python qui affiche des informations d�
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/yourusername/TechSpecs-Tracker.git
+   git clone https://github.com/akita94/techSpecs.git
    cd TechSpecs-Tracker
 
 1. **nstaller les dépendances :**
@@ -40,5 +40,5 @@ TechSpecs Tracker est une application GUI Python qui affiche des informations d�
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/yourusername/TechSpecs-Tracker.git
+   git clone https://github.com/akita94/techSpecs.git
    cd TechSpecs-Tracker
