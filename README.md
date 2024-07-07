@@ -1,44 +1,29 @@
-TechSpecs Tracker
-TechSpecs Tracker is a Python GUI application that displays detailed system information of the system it's running on. The application uses Tkinter for the user interface and modules like platform and psutil to fetch and display system information.
+# TechSpecs Tracker
 
-Features
-Displays information about the operating system (name, version, architecture).
-Displays details about the processor (model, frequency, number of cores).
-Displays information about the RAM (total, available).
-Displays details about the hard disk (total space, used space, free space, usage percentage).
-Displays information about the power supply (simulated).
-Displays details about the CPU cooling (simulated).
-Displays details about the motherboard (on Windows only, using WMIC).
-Displays details about the graphics card (on Windows only, using WMIC).
-Displays details about the operating system (build name, installed updates).
-Requirements
-Python 3.x installed on your system.
-The following modules need to be installed:
-psutil
-tkinter (usually included with Python)
-Installation and Usage
-Clone the repository:
+TechSpecs Tracker est une application GUI Python qui affiche des informations détaillées sur le système sur lequel elle s'exécute. L'application utilise Tkinter pour l'interface utilisateur et des modules tels que platform et psutil pour récupérer et afficher les informations système.
 
-bash
-Copier le code
-git clone https://github.com/yourusername/TechSpecs-Tracker.git
-cd TechSpecs-Tracker
-Install dependencies:
-Make sure the required modules are installed:
+## Fonctionnalités
 
-bash
-Copier le code
-pip install psutil
-Run the application:
+- Affiche des informations sur le système d'exploitation (nom, version, architecture).
+- Affiche des détails sur le processeur (modèle, fréquence, nombre de cœurs).
+- Affiche des informations sur la RAM (totale, disponible).
+- Affiche des détails sur le disque dur (espace total, espace utilisé, espace libre, pourcentage d'utilisation).
+- Affiche des informations sur l'alimentation (simulée).
+- Affiche des détails sur le refroidissement du CPU (simulé).
+- Affiche des détails sur la carte mère (uniquement sous Windows, en utilisant WMIC).
+- Affiche des détails sur la carte graphique (uniquement sous Windows, en utilisant WMIC).
+- Affiche des détails sur le système d'exploitation (nom de build, mises à jour installées).
 
-bash
-Copier le code
-python TechSpecs.py
-Usage:
-Once the application is launched, it will display system details in a user-friendly interface.
+## Prérequis
 
-Author
-Add your author information here.
+- Python 3.x installé sur votre système.
+- Les modules suivants doivent être installés :
+  - `psutil`
+  - `tkinter` (généralement inclus avec Python)
 
-License
-This project is licensed under the MIT License.
+## Installation et Utilisation
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/yourusername/TechSpecs-Tracker.git
+   cd TechSpecs-Tracker
